@@ -1,0 +1,154 @@
+.room {
+  width: 100vw;
+  height: 100vh;
+}
+
+.theme-box {
+  height: 7%;
+  text-align: center;
+}
+
+.main-func-box {
+  height: 86%;
+  text-align: center;
+  display: flex;
+}
+
+.left-box {
+  display: inline-block;
+  height: 100%;
+}
+
+.hat-info {
+  position: relative;
+}
+
+.hanger-image {
+  
+}
+
+.hat-box {
+  position: absolute;
+  top: 1%;
+  left: 23%;
+}
+
+.hat {
+  width: 70%;
+}
+
+.video-room {
+  display: inline-block;
+  height: 100%;
+}
+
+.right-box {
+  display: inline-flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.member-box {
+  display: inline-block;
+}
+
+.chat-box {
+  background-color: aliceblue;
+  display: inline-block;
+}
+
+.mainFunc {
+  color: white;
+}
+
+.bottom-bar-box {
+  height: 7%;
+  text-align: center;
+}
+
+.left-bar {
+  display: inline-block;
+  width: 18%;
+}
+
+.hat-button {
+  margin: auto;
+}
+
+.middle-bar {
+  display: inline-block;
+  width: 36%;
+  margin-left: 14%;
+  margin-right: 14%;
+}
+
+.mute-button-box {
+  display: inline-block;
+  width: 33.3%;
+}
+
+.mute-button {
+
+}
+
+.share-screen-button-box {
+  display: inline-block;
+  width: 33.3%;
+}
+
+.share-screen-button {
+
+}
+
+.exit-button-box {
+  display: inline-block;
+  width: 33.3%
+}
+
+.exit-button {
+  color: rgb(245, 50, 50);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.right-bar {
+  display: inline-block;
+  width: 18%;
+}
+
+.member-button-box {
+  display: inline-block;
+  margin-left: 15%;
+  width: 35%;
+}
+
+.member-button {
+
+}
+
+.chat-room-button-box {
+  display: inline-block;
+  width: 35%;
+  margin-right: 15%;
+}
+
+.chat-room-button {
+
+}
+
+#participants {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.participant {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #6667ab;
+  color: white
+}

@@ -1,0 +1,138 @@
+.container2 {
+	grid-template-columns: 50px;
+	grid-auto-columns: 1fr 2fr;
+  border: 5px;
+}
+.item:nth-child(1) { order: 3; } /* A */
+.item:nth-child(2) { order: 1; } /* B */
+.item:nth-child(3) { order: 2; } /* C */
+
+
+/* ----------------INFOMATION TAG---------------- */
+
+.sticky-info {
+  position: fixed;
+  background-color: #7b7cc2;
+  width: 16.666%;
+}
+
+.info-text1 {
+  color: white;
+  font-size: 1.5rem;
+  display: inline-block;
+  padding-top: 10vh;
+  padding-bottom: 0vh;
+}
+
+.info-text2 {
+  color: white;
+  font-size: 1.2rem;
+  /* display: inline-block; */
+  padding-top: 4vh;
+  padding-bottom: 100vh;
+}
+
+.info-text1:hover {
+  color: rgb(146, 208, 80)
+}
+.info-text2:hover {
+  color: rgb(146, 208, 80)
+}
+.profile-container {
+  padding-top: 150px;
+  /* border: 30px;?? */
+}
+
+/* 없는 경우 */
+.text-avatar {
+  /* 이미지 뒷 배경원 */
+  width: 200px;
+  height: 200px;
+  margin-bottom: 100px;
+  margin: 100px auto;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 50%;
+  background: #6667ab;
+  background-image: linear-gradient(45deg,#7b7cc2 1%,#33345f 64%,#40baf5 97%);
+}
+
+.text-avatar span {
+  line-height: 200px;
+  color: #fff;
+  font-size: 3em;
+}
+
+.profile-info {
+  text-align: center;
+}
+/* ----------------모자 tag----------------- */
+li {
+  /* 점을 없애는 속성 */
+	display: inline-block;
+}
+li img {
+  /* 모자크기 조절 */
+	width: 40px;
+}
+li p{
+	display: inline-block;
+	padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 70px;
+}
+
+.inLine {
+  display: inline-block;
+}
+/* -----------------TimeLog TAG--------------- */
+
+
+
+.timeLog h1 {
+  text-align: center;
+}
+
+.Card h3 {
+  text-align: center;
+  /* padding-top: 10px; */
+
+}
+
+img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+.font-color {
+  color: white;
+}
+
+.head-faraway {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.profile-info .profile-avatar img {
+  width: 200px;
+  border-radius: 50%;
+  /* max-width: 500px; */
+}
+
+.chart-color {
+  background-color: #333333;
+}
+
+/* ---------piechart-------- */
+.kkwak-kkye {
+  padding-left : 2.4rem;
+  padding-right : 2.4rem;
+}
+
+.kkwak {
+  padding: 0rem;
+}
+
+.longhatcolor {
+  font-size: 3rem;
+}

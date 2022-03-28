@@ -1,0 +1,36 @@
+MessageRepository.java
+
+    /** 메시지 조회
+     *
+     * @param chatroomId
+     * @param messageId
+     * @return
+     */
+    @Override
+    public List<Message> findAll(Long messageId, Long chatroomId) {
+        return em.createQuery("select m " +
+                        "from Message m join m.chatroom c " +
+                        "where m.id = :messageId " +
+                        "and c.id = :chatroomId", Message.class)
+                        .setParameter("messageId", messageId)
+                        .setParameter("chatroomId", chatroomId)
+                        .getResultList();
+
+select
+message0_.id as id1_2_,
+message0_.chatroom_id as chatroom3_2_,
+message0_.content as content2_2_,
+message0_.user_id as user_id4_2_
+
+from
+message message0_
+
+inner join
+chatroom chatroom1_
+on
+message0_.chatroom_id=chatroom1_.id
+
+where
+message0_.id=25
+and
+chatroom1_.id=14;

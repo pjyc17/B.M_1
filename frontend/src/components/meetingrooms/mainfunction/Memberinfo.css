@@ -1,0 +1,11 @@
+.member {
+  display: inline-block;
+}
+
+.member h4{
+  color: white;
+}
+
+.member p{
+  color: white;
+}

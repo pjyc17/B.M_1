@@ -1,0 +1,33 @@
+nav {
+  position: fixed;
+  background-color: rgb(102, 103, 171);
+  padding: 16px 32px;
+  width: 100%;
+  top: 0px;
+  z-index: 7;
+}
+
+.nav-div {
+  display: inline-block;
+}
+
+nav a {
+  margin-right: 16px;
+}
+
+.navLogoImage {
+  width: 60px;
+  height: auto;
+}
+
+.active {
+  color : rgb(146, 208, 80) !important
+}
+
+.nav-decoration {
+  color : white
+}
+
+.nav-decoration:hover {
+  color: rgb(146, 208, 80)
+}
